@@ -1,7 +1,18 @@
 {
     "version": "1",
-    "generated_at": "2025-11-13T02:30:19.952567+00:00Z",
+    "generated_at": "2025-11-13T02:42:27.432487+00:00Z",
     "models": [
+        {
+            "name": "arp",
+            "description": "Standard TCP Model",
+            "author": "ZNetLink",
+            "latest_version": "0.3.0",
+            "last_updated": "2025-11-13",
+            "labels": [
+                "ARP",
+                "TCP/IP"
+            ]
+        },
         {
             "name": "udp",
             "description": "Standard UDP Model",
