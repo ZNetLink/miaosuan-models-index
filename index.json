@@ -1,0 +1,29 @@
+{
+    "version": "1",
+    "generated_at": "2025-11-13T02:25:09.677341+00:00Z",
+    "models": [
+        {
+            "name": "udp",
+            "description": "Standard UDP Model",
+            "author": "ZNetLink",
+            "latest_version": "1.0.0",
+            "last_updated": "2024-06-01",
+            "labels": [
+                "UDP",
+                "TCP/IP"
+            ]
+        }
+    ],
+    "packages": [
+        {
+            "name": "basic",
+            "description": "Basic models for testing purposes",
+            "author": "ZNetLink",
+            "last_updated": "2024-06-01",
+            "labels": [
+                "testing",
+                "basic"
+            ]
+        }
+    ]
+}

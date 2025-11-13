@@ -1,0 +1,47 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - 'models/**'
+      - 'packages/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - 'index.json'
+      - '.github/workflows/validate.yml'
+
+jobs:
+  validate:
+    name: Validate changes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure index.json is not modified directly
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags --prune --depth=1 origin +refs/heads/${{ github.base_ref }}:refs/remotes/origin/${{ github.base_ref }}
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD | tr -d '\n')
+          echo "Changed files: $CHANGED"
+          if git diff --name-only origin/${{ github.base_ref }}...HEAD | grep -x 'index.json'; then
+            echo 'index.json is auto-generated. Do not modify it in PRs.'
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema
+
+      - name: Run schema validation
+        run: |
+          python scripts/validate_json.py
+

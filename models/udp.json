@@ -1,0 +1,22 @@
+{
+    "name": "UDP Model",
+    "author": {
+        "name": "ZNetLink",
+        "email": "jiazequn@znetlink.com"
+    },
+    "description": "Standard UDP Model",
+    "labels": [
+        "UDP",
+        "TCP/IP"
+    ],
+    "license": "GPL-3.0",
+    "versions": [
+        {
+            "version": "1.0.0",
+            "checksum": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "url": "https://github.com/znetlink/ms-models-udp/archive/refs/tags/v1.0.0.zip",
+            "date": "2024-06-01",
+            "notes": "Initial release of the UDP model."
+        }
+    ]
+}

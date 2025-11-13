@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://znetlink.com/miaosuan-model-index/schema/index.schema.json",
+  "title": "Generated Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "models", "packages"],
+  "properties": {
+    "version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description", "author", "labels"],
+        "properties": {
+          "name": {
+            "description": "Model slug (file name without .json)",
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-_]*$"
+          },
+          "description": { "type": "string" },
+          "author": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["name"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "email": { "type": "string", "format": "email" }
+                }
+              }
+            ]
+          },
+          "latest_version": { "type": "string" },
+          "last_updated": { "type": "string", "format": "date" },
+          "labels": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+        }
+      }
+    },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description", "author", "labels"],
+        "properties": {
+          "name": {
+            "description": "Package slug (file name without .json)",
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-_]*$"
+          },
+          "description": { "type": "string" },
+          "author": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["name"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "email": { "type": "string", "format": "email" }
+                }
+              }
+            ]
+          },
+          "last_updated": { "type": ["string", "null"], "format": "date" },
+          "labels": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+        }
+      }
+    }
+  }
+}
+

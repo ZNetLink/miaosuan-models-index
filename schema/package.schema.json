@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://znetlink.com/miaosuan-model-index/schema/package.schema.json",
+  "title": "Package Descriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "author", "description", "labels", "models", "date"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "email": { "type": "string", "format": "email" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "description": { "type": "string", "minLength": 1, "maxLength": 2000 },
+    "labels": {
+      "type": "array",
+      "minItems": 0,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "maxLength": 50 }
+    },
+    "models": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "description": "Referenced model slug (filename without .json)",
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-_]*$"
+          },
+          "version": {
+            "description": "Requested model version (semver)",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "date": { "type": "string", "format": "date" }
+  }
+}
