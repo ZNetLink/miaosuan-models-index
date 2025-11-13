@@ -45,7 +45,7 @@
       "version": "1.0.0",
       "checksum": "sha256:...64hex...",
       "url": "https://.../v1.0.0.zip",
-      "date": "2024-06-01",
+      "date": "2025-11-03",
       "notes": "Initial release of the UDP model."
     }
   ]
@@ -59,6 +59,7 @@
 - `name`: 人类可读名称
 - `author`: 作者信息对象 `{ name, email?, url? }`
 - `description`: 包描述
+- `date`: 包更新日期（YYYY-MM-DD）
 - `labels`: 标签数组（去重）
 - `models`: 引用的模型清单数组，元素为：
   - `name`: 模型 `slug`（即 `models/<slug>.json` 的 `<slug>`）
@@ -71,6 +72,7 @@
   "name": "Basics",
   "author": { "name": "ZNetLink" },
   "description": "Basic models for testing purposes",
+  "date": "2025-11-13",
   "labels": ["testing", "basic"],
   "models": [
     { "name": "udp", "version": "1.0.0" }

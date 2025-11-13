@@ -22,5 +22,5 @@
 
 ## 贡献
 
-请参考 `CONTRIBUTING.md` 获取提交流程、规范与示例。
+请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 获取提交流程、规范与示例。
 
