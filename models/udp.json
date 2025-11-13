@@ -1,5 +1,6 @@
 {
     "name": "UDP Model",
+    "repo_url": "https://github.com/znetlink/ms-models-udp",
     "author": {
         "name": "ZNetLink",
         "email": "jiazequn@znetlink.com"

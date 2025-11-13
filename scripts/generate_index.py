@@ -68,6 +68,7 @@ def collect_models(models_dir: Path):
             {
                 "name": slug,
                 "description": m.get("description", ""),
+                "repo_url": m.get("repo_url", ""),
                 "author": author or "",
                 "latest_version": latest_ver,
                 "last_updated": latest_date,
@@ -102,6 +103,7 @@ def collect_packages(packages_dir: Path, model_index: dict):
             {
                 "name": slug,
                 "description": pkg.get("description", ""),
+                "repo_url": pkg.get("repo_url", ""),
                 "author": author or "",
                 "last_updated": latest_date,
                 "labels": pkg.get("labels", []),
@@ -139,4 +141,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

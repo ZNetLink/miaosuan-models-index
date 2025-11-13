@@ -1,5 +1,6 @@
 {
     "name": "ARP Model",
+    "repo_url": "https://github.com/znetlink/ms-models-arp",
     "author": {
         "name": "ZNetLink",
         "email": "jiazequn@znetlink.com"

@@ -4,9 +4,10 @@
   "title": "Package Descriptor",
   "type": "object",
   "additionalProperties": false,
-  "required": ["name", "author", "description", "labels", "models", "date"],
+  "required": ["name", "author", "description", "labels", "models", "date", "repo_url"],
   "properties": {
     "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "repo_url": { "type": "string", "format": "uri" },
     "author": {
       "type": "object",
       "additionalProperties": false,

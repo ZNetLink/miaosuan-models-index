@@ -4,13 +4,14 @@
   "title": "Model Descriptor",
   "type": "object",
   "additionalProperties": false,
-  "required": ["name", "author", "description", "license", "labels", "versions"],
+  "required": ["name", "author", "description", "license", "labels", "versions", "repo_url"],
   "properties": {
     "name": {
       "type": "string",
       "minLength": 1,
       "maxLength": 200
     },
+    "repo_url": { "type": "string", "format": "uri" },
     "author": {
       "type": "object",
       "additionalProperties": false,
@@ -58,4 +59,3 @@
     }
   }
 }
-

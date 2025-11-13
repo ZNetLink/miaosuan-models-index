@@ -20,6 +20,7 @@
 请参考 `schema/model.schema.json`。关键字段：
 
 - `name`: 人类可读名称（如 "UDP Model"）
+- `repo_url`: 模型代码仓库地址（必填，URL）
 - `author`: 作者信息对象 `{ name, email?, url? }`
 - `description`: 模型描述
 - `license`: 许可证（建议使用 SPDX 标识）
@@ -36,6 +37,7 @@
 ```json
 {
   "name": "UDP Model",
+  "repo_url": "https://github.com/your-org/your-model-repo",
   "author": { "name": "ZNetLink", "email": "dev@example.com" },
   "description": "Standard UDP Model",
   "labels": ["UDP", "TCP/IP"],
@@ -57,6 +59,7 @@
 请参考 `schema/package.schema.json`。关键字段：
 
 - `name`: 人类可读名称
+- `repo_url`: 模型包仓库地址（必填，URL）
 - `author`: 作者信息对象 `{ name, email?, url? }`
 - `description`: 包描述
 - `date`: 包更新日期（YYYY-MM-DD）
@@ -70,6 +73,7 @@
 ```json
 {
   "name": "Basics",
+  "repo_url": "https://github.com/your-org/your-package-repo",
   "author": { "name": "ZNetLink" },
   "description": "Basic models for testing purposes",
   "date": "2025-11-13",
@@ -101,4 +105,3 @@
 - PR 合并进入 `master` 后，GitHub Action 会自动扫描 `models/` 和 `packages/` 生成新的 `index.json`
 
 感谢你的贡献！
-

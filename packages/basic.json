@@ -1,5 +1,6 @@
 {
     "name": "basics",
+    "repo_url": "https://github.com/znetlink/ms-packages-basic",
     "author": {
         "name": "ZNetLink",
         "email": "jiazequn@znetlink.com"

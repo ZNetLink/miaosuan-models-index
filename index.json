@@ -1,10 +1,11 @@
 {
     "version": "1",
-    "generated_at": "2025-11-13T02:42:27.432487+00:00Z",
+    "generated_at": "2025-11-13T02:54:55.782040+00:00Z",
     "models": [
         {
             "name": "arp",
             "description": "Standard TCP Model",
+            "repo_url": "https://github.com/znetlink/ms-models-arp",
             "author": "ZNetLink",
             "latest_version": "0.3.0",
             "last_updated": "2025-11-13",
@@ -16,6 +17,7 @@
         {
             "name": "udp",
             "description": "Standard UDP Model",
+            "repo_url": "https://github.com/znetlink/ms-models-udp",
             "author": "ZNetLink",
             "latest_version": "1.0.0",
             "last_updated": "2024-06-01",
@@ -29,6 +31,7 @@
         {
             "name": "basic",
             "description": "Basic models for testing purposes",
+            "repo_url": "https://github.com/znetlink/ms-packages-basic",
             "author": "ZNetLink",
             "last_updated": "2024-06-01",
             "labels": [

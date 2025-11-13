@@ -20,7 +20,8 @@
 - 模型包 Schema：`schema/package.schema.json`
 - 索引 Schema：`schema/index.schema.json`
 
+注意：模型与模型包均新增必填字段 `repo_url`（代码仓库 URL），生成的 `index.json` 也会包含该字段。
+
 ## 贡献
 
 请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 获取提交流程、规范与示例。
-

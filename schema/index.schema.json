@@ -13,7 +13,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "description", "author", "labels"],
+        "required": ["name", "description", "author", "labels", "repo_url"],
         "properties": {
           "name": {
             "description": "Model slug (file name without .json)",
@@ -21,6 +21,7 @@
             "pattern": "^[a-z0-9][a-z0-9-_]*$"
           },
           "description": { "type": "string" },
+          "repo_url": { "type": "string", "format": "uri" },
           "author": {
             "oneOf": [
               { "type": "string" },
@@ -46,7 +47,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "description", "author", "labels"],
+        "required": ["name", "description", "author", "labels", "repo_url"],
         "properties": {
           "name": {
             "description": "Package slug (file name without .json)",
@@ -54,6 +55,7 @@
             "pattern": "^[a-z0-9][a-z0-9-_]*$"
           },
           "description": { "type": "string" },
+          "repo_url": { "type": "string", "format": "uri" },
           "author": {
             "oneOf": [
               { "type": "string" },
@@ -75,4 +77,3 @@
     }
   }
 }
-
