@@ -1,0 +1,22 @@
+{
+    "name": "ARP Model",
+    "author": {
+        "name": "ZNetLink",
+        "email": "jiazequn@znetlink.com"
+    },
+    "description": "Standard TCP Model",
+    "labels": [
+        "ARP",
+        "TCP/IP"
+    ],
+    "license": "GPL-3.0",
+    "versions": [
+        {
+            "version": "0.3.0",
+            "checksum": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "url": "https://github.com/znetlink/ms-models-arp/archive/refs/tags/v0.3.0.zip",
+            "date": "2025-11-13",
+            "notes": "Initial release of the ARP model."
+        }
+    ]
+}
