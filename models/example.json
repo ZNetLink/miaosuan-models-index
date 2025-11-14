@@ -1,0 +1,22 @@
+{
+    "name": "示例模型",
+    "repo_url": "https://github.com/znetlink/ms-models-example",
+    "author": {
+        "name": "ZNetLink",
+        "email": "jiazequn@znetlink.com"
+    },
+    "description": "一些基础的示例模型，测试模型安装效果",
+    "labels": [
+        "example"
+    ],
+    "license": "GPL-3.0",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "checksum": "sha256:ddc402cd3291b6a603b1099572b6514b79219861dd9fb54e3c9967c3780986e4",
+            "url": "https://github.com/ZNetLink/ms-models-example/archive/refs/tags/v0.1.0.zip",
+            "date": "2025-11-14",
+            "notes": "Initial release."
+        }
+    ]
+}
