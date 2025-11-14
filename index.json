@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-11-14T06:24:15.731486+00:00Z",
+    "generated_at": "2025-11-14T07:16:09.238342+00:00Z",
     "models": [
         {
             "name": "arp",
@@ -19,7 +19,7 @@
             "description": "一些基础的示例模型，测试模型安装效果",
             "repo_url": "https://github.com/znetlink/ms-models-example",
             "author": "ZNetLink",
-            "latest_version": "0.1.0",
+            "latest_version": "0.1.1",
             "last_updated": "2025-11-14",
             "labels": [
                 "example"
