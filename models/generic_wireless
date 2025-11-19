@@ -1,0 +1,22 @@
+{
+    "name": "通用无线MAC层模型",
+    "repo_url": "https://github.com/znetlink/ms-model-generic-wireless",
+    "author": {
+        "name": "ZNetLink",
+        "email": "jiazequn@znetlink.com"
+    },
+    "description": "一些基础的示例模型，测试模型安装效果",
+    "labels": [
+        "mac"
+    ],
+    "license": "GPL-3.0",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "checksum": "sha256:40eb65fb73c67982cb41f6b3efc2228722044fdba87a6cf5142e33b2eb0471e1",
+            "url": "https://github.com/ZNetLink/ms-model-generic-wireless/archive/refs/tags/v0.1.0.zip",
+            "date": "2025-11-19",
+            "notes": "Initial release."
+        }
+    ]
+}
