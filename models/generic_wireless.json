@@ -5,9 +5,9 @@
         "name": "ZNetLink",
         "email": "jiazequn@znetlink.com"
     },
-    "description": "一些基础的示例模型，测试模型安装效果",
+    "description": "通用无线MAC层模型，在不关心MAC层具体实现的情况下，可以使用此模型进行模拟MAC层提供的通信能力。",
     "labels": [
-        "mac"
+        "MAC"
     ],
     "license": "GPL-3.0",
     "versions": [
