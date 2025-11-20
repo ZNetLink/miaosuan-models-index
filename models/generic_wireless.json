@@ -12,11 +12,11 @@
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "0.1.0",
-            "checksum": "sha256:40eb65fb73c67982cb41f6b3efc2228722044fdba87a6cf5142e33b2eb0471e1",
-            "url": "https://github.com/ZNetLink/ms-model-generic-wireless/archive/refs/tags/v0.1.0.zip",
-            "date": "2025-11-19",
-            "notes": "Initial release."
+            "version": "0.1.1",
+            "checksum": "sha256:998bc66af75fb66c168c311b11e715a535d1cde745f3bf5939ad6f632439ec7f",
+            "url": "https://github.com/ZNetLink/ms-model-generic-wireless/archive/refs/tags/v0.1.1.zip",
+            "date": "2025-11-20",
+            "notes": "适配最新仿真平台，修复问题."
         }
     ]
 }
