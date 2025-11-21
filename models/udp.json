@@ -13,11 +13,11 @@
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "0.1.0",
-            "checksum": "sha256:5085f202f3e2167b7820d89a27e3adaef4dab6b8bae0cfb370b4c6415e4e2c55",
-            "url": "https://github.com/ZNetLink/ms-model-udp/releases/download/v0.1.0/source-code-v0.1.0.zip",
+            "version": "0.1.1",
+            "checksum": "sha256:d2f523751bef552335933fbf24dc193d33a0c43ee01d704ff44b7be8da91bc71",
+            "url": "https://github.com/ZNetLink/ms-model-udp/releases/download/v0.1.1/source-code-v0.1.1.zip",
             "date": "2025-11-21",
-            "notes": "Initial release of the UDP model."
+            "notes": "修复注解问题."
         }
     ]
 }
