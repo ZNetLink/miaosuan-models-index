@@ -17,6 +17,13 @@
             "url": "https://github.com/ZNetLink/ms-model-generic-wireless/archive/refs/tags/v0.1.3.zip",
             "date": "2025-11-20",
             "notes": "适配最新仿真平台，修复问题."
+        },
+        {
+            "version": "0.1.4",
+            "checksum": "sha256:6189918d63f7120ed7cb0f05f8ee48156a8ae88d211cd2e3c60e5f36564e3c2f",
+            "url": "https://github.com/ZNetLink/ms-model-generic-wireless/releases/download/v0.1.4/source-code-v0.1.4.zip",
+            "date": "2025-11-21",
+            "notes": "增加统计量功能."
         }
     ]
 }
