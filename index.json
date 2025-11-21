@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-11-21T07:39:09.529348+00:00Z",
+    "generated_at": "2025-11-21T09:38:52.589603+00:00Z",
     "models": [
         {
             "name": "arp",
@@ -38,14 +38,14 @@
         },
         {
             "name": "udp",
-            "description": "Standard UDP Model",
-            "repo_url": "https://github.com/znetlink/ms-models-udp",
+            "description": "基础UDP模型",
+            "repo_url": "https://github.com/ZNetLink/ms-model-udp",
             "author": "ZNetLink",
-            "latest_version": "1.0.0",
-            "last_updated": "2024-06-01",
+            "latest_version": "0.1.0",
+            "last_updated": "2025-11-21",
             "labels": [
-                "UDP",
-                "TCP/IP"
+                "Transport",
+                "传输层"
             ]
         }
     ],
