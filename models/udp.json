@@ -1,22 +1,22 @@
 {
-    "name": "UDP Model",
-    "repo_url": "https://github.com/znetlink/ms-models-udp",
+    "name": "UDP模型",
+    "repo_url": "https://github.com/ZNetLink/ms-model-udp",
     "author": {
         "name": "ZNetLink",
         "email": "jiazequn@znetlink.com"
     },
-    "description": "Standard UDP Model",
+    "description": "基础UDP模型",
     "labels": [
-        "UDP",
-        "TCP/IP"
+        "Transport",
+        "传输层"
     ],
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "1.0.0",
-            "checksum": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
-            "url": "https://github.com/znetlink/ms-models-udp/archive/refs/tags/v1.0.0.zip",
-            "date": "2024-06-01",
+            "version": "0.1.0",
+            "checksum": "sha256:5085f202f3e2167b7820d89a27e3adaef4dab6b8bae0cfb370b4c6415e4e2c55",
+            "url": "https://github.com/ZNetLink/ms-model-udp/releases/download/v0.1.0/source-code-v0.1.0.zip",
+            "date": "2025-11-21",
             "notes": "Initial release of the UDP model."
         }
     ]
