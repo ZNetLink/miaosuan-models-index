@@ -13,11 +13,11 @@
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "0.1.0",
-            "checksum": "sha256:133ef4418a90469fdd6cb6b069b7e30e881887695b762f4fa4ff16633b42ffa2",
-            "url": "https://github.com/ZNetLink/ms-model-echo-app/releases/download/v0.1.0/source-code-v0.1.0.zip",
+            "version": "0.1.1",
+            "checksum": "sha256:6033df42e0253b692004452633bce9ccf9fe31cbae1ecd0fde1298d48cce8823",
+            "url": "https://github.com/ZNetLink/ms-model-echo-app/releases/download/v0.1.1/source-code-v0.1.1.zip",
             "date": "2025-11-22",
-            "notes": "Initial release."
+            "notes": "Fix code error."
         }
     ]
 }
