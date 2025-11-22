@@ -1,29 +1,23 @@
 {
-    "name": "示例模型",
-    "repo_url": "https://github.com/znetlink/ms-models-example",
+    "name": "echo-app",
+    "repo_url": "https://github.com/znetlink/ms-model-echo-app",
     "author": {
         "name": "ZNetLink",
         "email": "jiazequn@znetlink.com"
     },
-    "description": "一些基础的示例模型，测试模型安装效果",
+    "description": "智网妙算回显应用模型",
     "labels": [
-        "example"
+        "App",
+        "应用层"
     ],
     "license": "GPL-3.0",
     "versions": [
         {
             "version": "0.1.0",
-            "checksum": "sha256:ddc402cd3291b6a603b1099572b6514b79219861dd9fb54e3c9967c3780986e4",
-            "url": "https://github.com/ZNetLink/ms-models-example/archive/refs/tags/v0.1.0.zip",
-            "date": "2025-11-14",
+            "checksum": "sha256:133ef4418a90469fdd6cb6b069b7e30e881887695b762f4fa4ff16633b42ffa2",
+            "url": "https://github.com/ZNetLink/ms-model-echo-app/releases/download/v0.1.0/source-code-v0.1.0.zip",
+            "date": "2025-11-22",
             "notes": "Initial release."
-        },
-        {
-            "version": "0.1.1",
-            "checksum": "sha256:5e2f5df4ca7253d5ae69cbd0d73d08fb27c442aecfe8afd9bb7b428fa7360d31",
-            "url": "https://github.com/ZNetLink/ms-models-example/archive/refs/tags/v0.1.1.zip",
-            "date": "2025-11-14",
-            "notes": "修复traffic模型无法正常安装的问题."
         }
     ]
 }
