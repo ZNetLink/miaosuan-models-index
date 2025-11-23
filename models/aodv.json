@@ -1,0 +1,23 @@
+{
+    "name": "aodv",
+    "repo_url": "https://github.com/ZNetLink/ms-model-aodv",
+    "author": {
+        "name": "ZNetLink",
+        "email": "jiazequn@znetlink.com"
+    },
+    "description": "MANET自组网AODV路由模型",
+    "labels": [
+        "Routing",
+        "路由协议"
+    ],
+    "license": "GPL-3.0",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "checksum": "sha256:e8158b7d160c6938ab1657e9e61f3061e231c2456981718fd978c6a8d39783de",
+            "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.1.0/source-code-v0.1.0.zip",
+            "date": "2025-11-23",
+            "notes": "Initial release of the AODV model."
+        }
+    ]
+}
