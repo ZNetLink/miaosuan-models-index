@@ -1,0 +1,23 @@
+{
+    "name": "ip",
+    "repo_url": "https://github.com/ZNetLink/ms-model-ip",
+    "author": {
+        "name": "ZNetLink",
+        "email": "jiazequn@znetlink.com"
+    },
+    "description": "基础IP/ARP模型",
+    "labels": [
+        "Network",
+        "网络层"
+    ],
+    "license": "GPL-3.0",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "checksum": "sha256:5efa7f2bb881189f18e20562fcf7468385ff49d8369c39d2676257e1af931024",
+            "url": "https://github.com/ZNetLink/ms-model-ip/releases/download/v0.1.0/source-code-v0.1.0.zip",
+            "date": "2025-11-23",
+            "notes": "Initial release of the IP model."
+        }
+    ]
+}
