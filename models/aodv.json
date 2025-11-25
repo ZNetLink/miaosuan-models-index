@@ -13,11 +13,11 @@
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "0.1.0",
-            "checksum": "sha256:e8158b7d160c6938ab1657e9e61f3061e231c2456981718fd978c6a8d39783de",
-            "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.1.0/source-code-v0.1.0.zip",
-            "date": "2025-11-23",
-            "notes": "Initial release of the AODV model."
+            "version": "0.1.1",
+            "checksum": "sha256:16e0247cd2866040ba344d4e90bfb83d0fbee16d07bc913baa0aac7c900760d6",
+            "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.1.1/source-code-v0.1.1.zip",
+            "date": "2025-11-25",
+            "notes": "修复AODV模型缺少路由查找失败的问题"
         }
     ]
 }
