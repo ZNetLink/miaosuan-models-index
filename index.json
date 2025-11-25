@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-11-25T10:46:36.239605+00:00Z",
+    "generated_at": "2025-11-25T11:09:13.132126+00:00Z",
     "models": [
         {
             "name": "aodv",
@@ -42,8 +42,8 @@
             "description": "基础IP/ARP模型",
             "repo_url": "https://github.com/ZNetLink/ms-model-ip",
             "author": "ZNetLink",
-            "latest_version": "0.1.1",
-            "last_updated": "2025-11-24",
+            "latest_version": "0.1.2",
+            "last_updated": "2025-11-25",
             "labels": [
                 "Network",
                 "网络层"
