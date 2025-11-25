@@ -1,14 +1,14 @@
 {
     "version": "1",
-    "generated_at": "2025-11-24T01:39:57.126044+00:00Z",
+    "generated_at": "2025-11-25T10:46:36.239605+00:00Z",
     "models": [
         {
             "name": "aodv",
             "description": "MANET自组网AODV路由模型",
             "repo_url": "https://github.com/ZNetLink/ms-model-aodv",
             "author": "ZNetLink",
-            "latest_version": "0.1.0",
-            "last_updated": "2025-11-23",
+            "latest_version": "0.1.1",
+            "last_updated": "2025-11-25",
             "labels": [
                 "Routing",
                 "路由协议"
