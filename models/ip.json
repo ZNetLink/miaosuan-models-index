@@ -13,11 +13,11 @@
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "0.1.1",
-            "checksum": "sha256:1c19e0d74543e786b0099348f69b3bbb2432429e712cbc36feae4db2af217cc8",
-            "url": "https://github.com/ZNetLink/ms-model-ip/releases/download/v0.1.1/source-code-v0.1.1.zip",
-            "date": "2025-11-24",
-            "notes": "修复ARP模型对于MAC地址为0的支持."
+            "version": "0.1.2",
+            "checksum": "sha256:cf3e1eea9a6d02d7f5c5376b61fbec023c15ac675dacd4360de7776e623ede24",
+            "url": "https://github.com/ZNetLink/ms-model-ip/releases/download/v0.1.2/source-code-v0.1.2.zip",
+            "date": "2025-11-25",
+            "notes": "修复按需路由流程bug."
         }
     ]
 }
