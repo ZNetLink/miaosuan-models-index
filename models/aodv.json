@@ -13,11 +13,11 @@
     "license": "GPL-3.0",
     "versions": [
         {
-            "version": "0.1.2",
-            "checksum": "sha256:e343016b521f5e05ccd05e14aa2460d7852378ec1925b6ad7359db26b22b01fb",
-            "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.1.2/source-code-v0.1.2.zip",
-            "date": "2025-11-27",
-            "notes": "添加AODV图标库"
+            "version": "0.1.3",
+            "checksum": "sha256:3e6a8f477b6c6b08d9e43efeed1766d9a4206f7265e42a26db17caa0525ac0c0",
+            "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.1.3/source-code-v0.1.3.zip",
+            "date": "2025-12-04",
+            "notes": "修复发送时延模型配置错误"
         }
     ]
 }
