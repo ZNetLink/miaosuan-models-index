@@ -24,6 +24,13 @@
             "url": "https://github.com/ZNetLink/ms-model-generic-wireless/releases/download/v0.1.4/source-code-v0.1.4.zip",
             "date": "2025-11-21",
             "notes": "增加统计量功能."
+        },
+        {
+            "version": "0.2.0dev1",
+            "checksum": "sha256:99bfcc340eb78f2c524976907fc695d37cfc930f81a3febf8829251c044aaaa4",
+            "url": "https://github.com/ZNetLink/ms-model-generic-wireless/releases/download/v0.2.0dev1/source-code-v0.2.0dev1.zip",
+            "date": "2025-12-05",
+            "notes": "适配新的模型结构，将管道阶段模型单独处理."
         }
     ]
 }
