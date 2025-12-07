@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-12-05T07:24:24.123045+00:00Z",
+    "generated_at": "2025-12-07T11:04:11.444574+00:00Z",
     "models": [
         {
             "name": "aodv",
@@ -31,8 +31,8 @@
             "description": "通用无线MAC层模型，在不关心MAC层具体实现的情况下，可以使用此模型进行模拟MAC层提供的通信能力。",
             "repo_url": "https://github.com/znetlink/ms-model-generic-wireless",
             "author": "ZNetLink",
-            "latest_version": "0.2.0dev2",
-            "last_updated": "2025-12-05",
+            "latest_version": "0.2.0",
+            "last_updated": "2025-12-07",
             "labels": [
                 "MAC"
             ]
