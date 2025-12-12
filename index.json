@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-12-12T07:56:30.119947+00:00Z",
+    "generated_at": "2025-12-12T08:04:32.575091+00:00Z",
     "models": [
         {
             "name": "aodv",
@@ -62,17 +62,5 @@
             ]
         }
     ],
-    "packages": [
-        {
-            "name": "basic",
-            "description": "Basic models for testing purposes",
-            "repo_url": "https://github.com/znetlink/ms-packages-basic",
-            "author": "ZNetLink",
-            "last_updated": "2024-06-01",
-            "labels": [
-                "testing",
-                "basic"
-            ]
-        }
-    ]
+    "packages": []
 }
