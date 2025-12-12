@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-12-12T07:53:42.020156+00:00Z",
+    "generated_at": "2025-12-12T07:56:30.119947+00:00Z",
     "models": [
         {
             "name": "aodv",
@@ -54,8 +54,8 @@
             "description": "基础UDP模型",
             "repo_url": "https://github.com/ZNetLink/ms-model-udp",
             "author": "ZNetLink",
-            "latest_version": "0.1.2",
-            "last_updated": "2025-11-23",
+            "latest_version": "0.2.0",
+            "last_updated": "2025-12-12",
             "labels": [
                 "Transport",
                 "传输层"
