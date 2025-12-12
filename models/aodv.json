@@ -18,6 +18,13 @@
             "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.1.3/source-code-v0.1.3.zip",
             "date": "2025-12-04",
             "notes": "修复发送时延模型配置错误"
+        },
+        {
+            "version": "0.2.0",
+            "checksum": "sha256:9e436c115146dc9ed3d591d1040be4b87cded7fba2f474084825e27c07b3e265",
+            "url": "https://github.com/ZNetLink/ms-model-aodv/releases/download/v0.2.0/source-code-v0.2.0.zip",
+            "date": "2025-12-12",
+            "notes": "支持v2新版进程模型"
         }
     ]
 }
