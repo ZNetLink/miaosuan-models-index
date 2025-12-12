@@ -18,6 +18,13 @@
             "url": "https://github.com/ZNetLink/ms-model-ip/releases/download/v0.1.2/source-code-v0.1.2.zip",
             "date": "2025-11-25",
             "notes": "修复按需路由流程bug."
+        },
+        {
+            "version": "0.2.0",
+            "checksum": "sha256:c0e4f0a2cbefb6927c3e9b3e0c0f4311a390ec117a4b7a05e612b972155c905d",
+            "url": "https://github.com/ZNetLink/ms-model-ip/releases/download/v0.2.0/source-code-v0.2.0.zip",
+            "date": "2025-12-12",
+            "notes": "升级 arp 和 ipv4 进程模型到 v2 格式."
         }
     ]
 }
