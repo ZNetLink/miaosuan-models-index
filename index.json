@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "generated_at": "2025-12-12T07:34:00.328046+00:00Z",
+    "generated_at": "2025-12-12T07:46:36.701489+00:00Z",
     "models": [
         {
             "name": "aodv",
@@ -19,8 +19,8 @@
             "description": "智网妙算回显应用模型",
             "repo_url": "https://github.com/znetlink/ms-model-echo-app",
             "author": "ZNetLink",
-            "latest_version": "0.1.1",
-            "last_updated": "2025-11-22",
+            "latest_version": "0.2.0",
+            "last_updated": "2025-12-12",
             "labels": [
                 "App",
                 "应用层"
