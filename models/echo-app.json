@@ -18,6 +18,13 @@
             "url": "https://github.com/ZNetLink/ms-model-echo-app/releases/download/v0.1.1/source-code-v0.1.1.zip",
             "date": "2025-11-22",
             "notes": "Fix code error."
+        },
+        {
+            "version": "0.2.0",
+            "checksum": "sha256:c35c5e9d13e7ebac9e1903b05dc8d54fe027e4193c3f5159f6e22214b2a21c4c",
+            "url": "https://github.com/ZNetLink/ms-model-echo-app/releases/download/v0.2.0/source-code-v0.2.0.zip",
+            "date": "2025-12-12",
+            "notes": "适配新版v2进程模型."
         }
     ]
 }
