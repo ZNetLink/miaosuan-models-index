@@ -31,6 +31,13 @@
             "url": "https://github.com/ZNetLink/ms-model-generic-wireless/releases/download/v0.2.0/source-code-v0.2.0.zip",
             "date": "2025-12-07",
             "notes": "适配新的模型结构，将管道阶段模型单独处理."
+        },
+        {
+            "version": "0.3.0",
+            "checksum": "sha256:25baa828dbd48048986e94c2bebbc40a4a1e05c1dcf4658e8aebbe6d367fec4c",
+            "url": "https://github.com/ZNetLink/ms-model-generic-wireless/releases/download/v0.3.0/source-code-v0.3.0.zip",
+            "date": "2025-12-12",
+            "notes": "适配新的进程模型格式."
         }
     ]
 }
