@@ -18,6 +18,13 @@
             "url": "https://github.com/ZNetLink/ms-model-udp/releases/download/v0.1.2/source-code-v0.1.2.zip",
             "date": "2025-11-23",
             "notes": "修复对IP模块的引用问题."
+        },
+        {
+            "version": "0.2.0",
+            "checksum": "sha256:60800c039bc78c8cfa732b9ed24eb0557c7b964802296317c5b1394420645a04",
+            "url": "https://github.com/ZNetLink/ms-model-udp/releases/download/v0.2.0/source-code-v0.2.0.zip",
+            "date": "2025-12-12",
+            "notes": "升级进程模型格式到v2."
         }
     ]
 }
